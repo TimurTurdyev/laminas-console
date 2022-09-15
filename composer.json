@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-console",
+    "name": "timurturdyev/laminas-console",
     "description": "Build console applications using getopt syntax or routing, complete with prompts",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -16,7 +16,8 @@
         "forum": "https://discourse.laminas.dev"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform-check": false
     },
     "extra": {
         "branch-alias": {
@@ -25,9 +26,9 @@
         }
     },
     "require": {
-        "php": "^5.6 || ^7.0",
-        "laminas/laminas-stdlib": "^3.2.1",
-        "laminas/laminas-zendframework-bridge": "^1.0"
+        "php": "^8.0 || ^8.1",
+        "laminas/laminas-stdlib": "^3.13",
+        "laminas/laminas-zendframework-bridge": "^1.6.1"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~1.0.0",
